@@ -1,0 +1,6 @@
+{
+  "name": "pet-feeder-firmware-regression",
+  "private": true,
+  "scripts": { "test": "node firmware.cjs && node firmware.cjs sim_hopper && node firmware.cjs sim_bowl" },
+  "devDependencies": { "avr8js": "0.21.0" }
+}
